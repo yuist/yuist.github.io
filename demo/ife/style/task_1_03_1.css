@@ -1,0 +1,46 @@
+* {
+	margin: 0;padding: 0;
+}
+div {
+	margin: 20px;
+	background: #fff;	
+	border: 1px solid #999;
+}
+figure {
+	margin: 20px;
+}
+
+body {
+	position: relative;
+	font-family: 'Microsoft YaHei';
+	background: #eee
+}
+
+.team {	
+	float: left;
+	width: 200px;
+	position: relative;
+}
+.team p {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.main {
+	margin-left: 240px;
+	margin-right: 160px;
+	position: absolute;	
+}
+.main h3{
+	padding: 20px;
+}
+.main p {
+	padding: 20px;
+	text-indent: 2em;
+}
+.each {
+	
+	float: right;
+	width: 120px;
+}
