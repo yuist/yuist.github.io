@@ -4,6 +4,8 @@
 body {
 	background-color: #919191;
 	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	
 }
 .container {
 	width: 892px;
@@ -12,6 +14,7 @@ body {
 	padding: 0 44px;
 	background-color: #ffffff;
 }
+/*头部heder开始*/
 header { 	
 	position: relative;
 	margin-bottom: 30px;
@@ -41,4 +44,330 @@ header .date {
 header .header-hr {
 	border: 2px #938e8c solid;
 	margin-top: 0;	
+}
+/*main开始*/
+.up {
+	position: relative;
+}
+.img-one {
+	height: 301px;
+	width: 641px;
+}
+.cover-left {
+	width: 191px;
+	height: 301px;
+	background: #2c523f;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+}
+.cover-right {
+	width: 191px;
+	height: 301px;
+	background: #e4b6b6;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+	right: 251px;
+}
+.aside-top {
+	width: 203px;
+	
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.aside-top hr {
+	border: 2px #cc8091 solid;	
+}
+.aside-top h2 {
+	font-size: 24px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+.aside-top>p {
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";	
+	font-style: italic;
+	margin-bottom: 10px;
+}
+#num-big {
+	font-size: 116px;
+	color: #75b86b;
+	font-style: oblique;
+	margin-left: -18px;		
+}
+.num-down {
+	position: relative;
+}
+#num-small {
+	font-size: 55px;
+	color: #cc8091;
+	position: absolute;	
+	top: -18px;	
+}
+#css {
+	font-size: 21px;
+	color: #cc8091;
+	position: absolute;
+	top: 5px;
+	left: 85px;
+}
+#css-small {
+	font-size: 12px;
+	color: #cc8091;
+	position: absolute;
+	top: 25px;
+	left: 85px;
+}
+/*section up 结束，section middle 开始*/
+.middle {
+	width: 641px;
+	margin: 20px 0;	
+}
+.clearfix:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	/*触发haslayout*/
+	zoom: 1;
+}
+.middle article {
+	margin-right: 13px;
+}
+.what {
+	float: left;
+	width: 220px;
+}
+.what h2 {
+	font-size: 16px;
+	color: #418c59;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.what p {
+	color: #767777;
+	font-family: "宋体";
+	margin-bottom: 16px;
+}
+.when {
+	float: left;
+	width: 200px;
+}
+.when h2 {
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.when p {
+	color: #231815;
+	margin-bottom: 16px;
+	opacity: 70%;
+}
+.how {
+	float: left;
+	width: 180px;	
+}
+.how h2 {
+	font-size: 16px;
+	color: #cc7680;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.how>p {
+	margin-bottom: 16px;
+}
+.how span {
+	color: #cd4a48;
+	font-style: oblique;
+	opacity: 70%;
+}
+/*section down 开始*/
+.down-left {
+	float: left;
+	width: 415px;
+}
+.down-left .h1 {
+	font-size: 42px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	line-height: 45px;	
+}
+.down-left .h1 span {
+	font-size: 72px;
+	color: #f5e327;
+	font-family: "黑体";
+	font-weight: bold;
+	font-style: oblique;
+}
+.down-left h2 {
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+.down-left hr {
+	border: 2px #11456b solid;
+	margin-bottom: 20px;
+}
+.down-left p {
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	
+	text-indent: 2em;
+}
+.down-left .part-one {
+	text-indent: 0;
+}
+.down-left p span {
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+}
+.down-left img {
+	float: right;
+	margin: 20px;
+}
+.down-right {
+	float: right;
+	width: 458px;
+}
+.down-right-up {	
+	position: relative;
+	width: 458px;
+	height: 275px;
+}
+#figcaption-one {
+	position: absolute;
+	font-size: 26px;
+	color: #ffffff;
+	border-left: 3px #72b16a solid;
+	bottom: 30px;
+	left: 30px;
+}
+#figcaption-two {
+	position: absolute;
+	font-size: 12px;
+	color: #72b16a;
+	font-style: oblique;
+	word-spacing: 140%;
+	bottom: 30px;
+	left: 170px;
+}
+.down-right-down {	
+	background: #eeedd6;
+	width: 459px;
+	height: 368px;
+	position: relative;
+}
+.down-right-down .list {
+	position: absolute;	
+	top: 20px;
+	left: 50px;
+}
+.down-right-down .list p {
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	text-align: left;
+	margin-bottom: 20px;
+}
+.down-right-down .list .triangle {
+	width: 0;
+	height: 0;
+	border-left:5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #13486d;
+	display: inline-block;
+}
+.down-right-down .list .p-end {
+	font-size: 12px;
+	font-style: oblique;
+	text-align: right;	
+}
+.down-right-down .under-list {
+	
+	height: 160px;
+	position: absolute;
+	bottom: 0;
+	
+}
+.down-right-down .under-list-left {
+	
+	float: left;
+	background: #d45d5c;
+	width: 250px;
+	height: 160px;
+	
+}
+.under-list-left span {
+	font-size: 110px;
+	color: #ffffff;
+	float: left;
+}
+.under-list-left div {
+	border-left: 2px solid #ffffff;
+    height: 86px;
+	width: 180px;
+    float: left;
+	margin-top: 40px;    
+}
+.under-list-left div .line-one {
+	font-size: 21px;
+	font-family: "黑体";
+	font-style: italic;
+	color: #ffffff;
+	margin-left: 10px;
+}
+.under-list-left div .line-two {
+	font-size: 12px;
+	font-family: "黑体";
+	color: #ffffff;
+	margin-left: 10px;
+	margin-bottom: 6px;
+}
+.down-right-down .under-list-right {
+	float:right;
+	width: 200px;
+	height: 160px;
+	
+}
+.under-list-right span {
+	font:72px "黑体";
+	color: #d45d5c;	
+}
+.under-list-right .quote-one {
+	float:left;
+	margin: -5px 10px 0 -20px;
+    height: 30px;
+}
+.under-list-right .quote-two {
+	float:right;
+}
+.under-list-right p {
+	font: italic 14px/16px "SimHei";
+	color:#5a5b5b;
+}
+/*底部*/
+footer {
+	clear: both;
+    width: 892px;
+    height: 59px;
+    border-top: 1px solid #938e8c;
+}
+footer span {
+	float: right;
+    font: 12px "黑体";
+    color: #d45d5c;
 }
